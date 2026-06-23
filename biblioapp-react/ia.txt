@@ -1,0 +1,25 @@
+1- Prompt: Añade Titulo, Editorial, Anio, Estado, Resumen, Autores a LibroCard, que se muestre de forma ordenada y que tengan un estilo diferente según que estado tengan (Disponible, Prestado, Reservado)
+
+Uso: Este prompt lo utilicé para crear rápido la estructura de datos, llenandola con su respectivo prop que contiene lo que se utilizará, además se crean las clases para los estados de los libros.
+Muy útil.
+
+2- Prompt: Renderiza un LibroCard por cada libro, con su respectiva Prop Key
+
+Uso: Acá se le pide renderizar una LibroCard por cada libro,  se preocupa de mapear libros para que este nos permita utilizar sus datos.
+Útil.
+
+3-Prompt: Añade botones y busqueda por Titulo para filtrar por estado a FiltroEstado, aplicando useState para los filtros (botones) y la busqueda por Titulo
+
+Uso: Se le pide añadir botones de filtros para los libros, además de un campo de busqueda por Titulo contando con la aplicación de su useState para guardar el filtro que sea seleccionado como también la busqueda por Titulo que se escriba.
+Muy útil.
+
+4-Prompt: Normaliza el texto de busqueda, recorta espacio y limita el largo obviamente teniendo en cuenta el libro con el titulo mas largo
+
+Uso: Se le pide normalizar el texto que se escriba en la busqueda, es decir, se le agrega un limite al texto que se vaya a introducir para evitar confusiones o problemas con el usuario.
+Útil.
+
+5- Prompt: Resalta los elementos con esNovedad: true, añadiendole una etiqueta de nuevo llamativa y un contador que cuente cuantos libros son novedad, adaptandose al filtro activo.
+
+Uso: Por último se le pide que resalte los elementos que contienen dan true en esNovedad, con su respectiva etiqueta de nuevo y el contador de los libros que son novedad, que este varia según que filtros se estén utilizando.
+Útil.
+
